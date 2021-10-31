@@ -8,3 +8,5 @@ app.get('/api', (req, res) => {
     res.send({data: 'good'});
     
 });
+
+app.listen(8080, () => console.log('alive on http://localhost:8080'));
